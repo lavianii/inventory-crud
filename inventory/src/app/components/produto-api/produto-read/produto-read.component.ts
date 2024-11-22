@@ -6,7 +6,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-produto-read',
-  imports: [MatTableModule, RouterLink, RouterOutlet],
+  imports: [MatTableModule, RouterLink],
   templateUrl: './produto-read.component.html',
   styleUrl: './produto-read.component.scss',
 })
